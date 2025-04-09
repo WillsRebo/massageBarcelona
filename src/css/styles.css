@@ -1,0 +1,195 @@
+/* Estilos personalizados */
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #fefefc;
+    color: #333;
+}
+
+h1,
+h2,
+h3 {
+    color: #2e8b57; /* verde natural */
+    font-weight: 700;
+}
+/* Estilos para el logo en el header ; */
+header.bg-light {
+    background-color: #9fbfa9; 
+}
+
+
+header .col-md-3 .logo {
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin: 1px 0;
+    border-radius: 50%; 
+    border: 2px solid white; 
+    border: 2px solid rgb(220, 196, 63);  
+    box-sizing: border-box; 
+    padding: 5px; 
+}
+
+
+header {
+    padding-top: 5px;  
+    padding-bottom: 5px; 
+}
+
+p ,li{
+    text-align: justify; 
+}
+/* Estilos para la navegación */
+.nav {
+   
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+/* Estilos para los enlaces */
+.nav-link {
+    background: #bc9447;
+    color: white !important; 
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase; 
+    padding: 10px 15px;
+    margin: 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out; 
+}
+
+/* Efecto al pasar el mouse */
+.nav-link:hover {
+    background: #2e8b57; 
+    color: white !important;
+    transform: scale(1.1); 
+}
+
+/* Efecto al hacer clic */
+.nav-link:active {
+    transform: scale(0.95);
+}
+
+.hero {
+    background-image: url('../img/salon3.JPG'); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff; 
+    
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.19); 
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.card-title {
+    color: #2e8b57; 
+}
+
+.card-description {
+    color: #2e8b57 
+}
+.servicios {
+    background-color: #f9f9f9; 
+}
+
+.servicio {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #e0e0e0; 
+    border-radius: 5px;
+}
+
+.servicio img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.contacto {
+    background-color: #f0f8f0;
+}
+.whatsapp{
+    background-color: #25D366;
+    color: white;
+}
+.instagram {
+    background: linear-gradient(45deg, #833AB4, #E1306C, #FD1D1D, #FCAF45);
+    color: white; 
+}
+
+/* WhatsApp */
+.whatsapp:hover {
+    background-color: #28e16c !important; 
+    color: white !important;
+}
+
+.instagram:hover {
+    background: linear-gradient(25deg, #833AB4, #E1306C, #FD1D1D, #FCAF45) !important; /* Mantiene el degradado */
+    color: white !important;
+}
+
+/* Estilos para el mapa */
+
+.map-container {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 300px; 
+    border: 0;
+}
+
+.formulario {
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background-color: #2e8b57;
+    border-color: #2e8b57;
+    color: #fff;
+}
+
+.btn-success {
+    background-color: #ffd700; 
+    border-color: #ffd700;
+    color: #333;
+}
+
+.btn-secondary {
+    background-color: #a9a9a9; 
+    border-color: #a9a9a9;
+    color: #fff;
+}
+
+
+
+footer {
+    background-color: #2e8b57; 
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
