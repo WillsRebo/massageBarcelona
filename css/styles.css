@@ -1,15 +1,23 @@
 /* Estilos personalizados */
 
+:root {
+    --colorText: #333;
+    --colorHtext:#2e8b57;
+    --colorbgBody: #fefefc;
+    --colorGold:#bc9447;
+    --bodyFontFamily: 'Quicksand', sans-serif;
+}
+
 body {
-    font-family: 'Quicksand', sans-serif;
-    background-color: #fefefc;
-    color: #333;
+    font-family: var(--bodyFontFamily);
+    background-color: var(--colorbgBody);
+    color: var(--colorText);
 }
 
 h1,
 h2,
 h3 {
-    color: #2e8b57; /* verde natural */
+    color: var(--colorHtext); /* verde natural */
     font-weight: 700;
 }
 /* Estilos para el logo en el header ; */
@@ -25,7 +33,7 @@ header .col-md-3 .logo {
     margin: 1px 0;
     border-radius: 50%; 
     border: 2px solid white; 
-    border: 2px solid rgb(220, 196, 63);  
+    border: 2px solid var();  
     box-sizing: border-box; 
     padding: 5px; 
 }
@@ -48,7 +56,7 @@ p ,li{
 
 /* Estilos para los enlaces */
 .nav-link {
-    background: #bc9447;
+    background: var(--colorGold);
     color: white !important; 
     font-size: 18px;
     font-weight: bold;
@@ -70,6 +78,18 @@ p ,li{
 .nav-link:active {
     transform: scale(0.95);
 }
+
+.bienvenida{
+ 
+    border-radius: 10px;
+    color: white;
+     text-shadow: 
+    -0.30px -0.30px 0 rgba(255, 255, 255, 0.5),
+     0.30px -0.30px 0 rgba(255, 255, 255, 0.5),
+    -0.30px  0.30px 0 rgba(255, 255, 255, 0.5),
+     0.30px  0.30px 0 rgba(255, 255, 255, 0.5);
+  }
+
 
 .hero {
     background-image: url('../img/salon3.JPG'); 
@@ -168,8 +188,8 @@ p ,li{
 }
 
 .btn-primary {
-    background-color: #2e8b57;
-    border-color: #2e8b57;
+    background-color: var(--colorHtext);
+    border-color: var(--colorHtext);
     color: #fff;
 }
 
@@ -185,7 +205,18 @@ p ,li{
     color: #fff;
 }
 
+.upAnchor {
+    display: flex;
+    position: fixed;
+    bottom: 80px;
+    right: 55px;
+    z-index: 9999;
+    border-radius: 15px;
+}
 
+.bi-arrow-up-circle{
+    fill: var(--colorGold);
+}
 
 footer {
     background-color: #2e8b57; 
