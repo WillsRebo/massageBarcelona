@@ -12,24 +12,33 @@
 </head>
 
 <body>
-    <header id="home" bg-light">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-3">
-                    <img src="img/LogomassageBarcelona7.jpg" alt="Logo Massage Barcelona" class="logo"> 
-                </div>
-                <div class="col-md-9">  
-                    <nav class="nav justify-content-center">
-                        <a class="nav-link" href="#inicio">Inicio</a>
-                        <a class="nav-link" href="#sobremi">Sobre mí</a>
-                        <a class="nav-link" href="#sala">La Sala</a>
-                        <a class="nav-link" href="#servicios">Servicios</a>
-                        <a class="nav-link" href="#contacto">Contacto</a>
-                    </nav>
-                </div>
-            </div>
+    <header id="home" class="bg-dark">
+        <div class="container header-container">
+          <div class="col-md-3">
+            <img src="img/LogomassageBarcelona7.jpg" alt="Logo Massage Barcelona" class="logo">
+          </div>
+          <div class="col-md-9 nav-pc-container">
+            <nav class="nav-pc justify-content-center">
+              <a class="nav-link" href="#inicio">Inicio</a>
+              <a class="nav-link" href="#sobremi">Sobre mí</a>
+              <a class="nav-link" href="#sala">La Sala</a>
+              <a class="nav-link" href="#servicios">Servicios</a>
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </nav>
+          </div>
+          <div class="nav-mobile">
+            <button class="menu-toggle" aria-label="Menú">☰</button>
+            <nav class="nav-mobile-list">
+              <a class="nav-link" href="#inicio">Inicio</a>
+              <a class="nav-link" href="#sobremi">Sobre mí</a>
+              <a class="nav-link" href="#sala">La Sala</a>
+              <a class="nav-link" href="#servicios">Servicios</a>
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </nav>
+          </div>
         </div>
-    </header>
+      </header>
+      
 
     <section id="inicio" class="hero">
         <div class="hero-content">
@@ -365,7 +374,7 @@
       </a>
     <footer class="bg-dark text-white py-3 text-center">
         <div>
-            <p>&copy; 2025 Massage Barcelona. Todos los derechos reservados.</p>
+            <p class="text-center"> &copy; 2025 Massage Barcelona. Todos los derechos reservados.</p>
         </div>
     </footer>
 
