@@ -207,6 +207,7 @@ header .logo {
   .hero {
     background-image: url('../img/salon2.JPG');
     background-attachment: scroll;
+    background-size: contain;
     height: 200px;
   }
 
