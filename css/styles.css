@@ -205,7 +205,9 @@ header .logo {
   }
 
   .hero {
+    background-image: url('../img/salon2.JPG');
     background-attachment: scroll;
+    height: 200px;
   }
 
   .nav-mobile {
