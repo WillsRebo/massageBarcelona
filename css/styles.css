@@ -57,6 +57,16 @@ header .logo {
   align-items: center; 
 }
 
+.logo-wrapper h1 {
+  font-size: 24px; 
+}
+
+.logo-wrapper h1 .grande {
+  font-size: 36px; 
+  color: var(--colorGold);
+}
+
+
 .logo-wrapper .logo {
   max-width: 75px;
   height: auto;
@@ -176,7 +186,7 @@ header .logo {
 #misfotos {
   margin-left: auto !important;
   margin-right: auto !important;
-  display: block !important; /* Ensure it's a block-level element */
+  display: block !important; 
 }
 
 .carousel-item {
@@ -192,6 +202,10 @@ header .logo {
 @media (max-width: 991.98px) {
   .nav-pc-container {
     display: none; 
+  }
+
+  .hero {
+    background-attachment: scroll;
   }
 
   .nav-mobile {
@@ -415,6 +429,12 @@ p {
 .btn-primary:hover {
   background-color: var(--colorGold);
   border-color: white;
+}
+.btn-primary:active {
+  background-color: var(--colorGold) !important;
+  border-color: white !important;
+  color: #fff !important;
+  box-shadow: none !important; /* Opcional: Elimina el efecto de sombra al hacer clic */
 }
 
 .btn-success {
