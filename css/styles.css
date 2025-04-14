@@ -215,17 +215,9 @@ header .logo {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #fff;
+    color: white;
   }
-  .hero::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: auto;
-    height: 700px;
-    background-color: rgba(0, 0, 0, 0.19);
-  }
+
 
   .nav-mobile {
     display: flex; 
